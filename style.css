@@ -1,0 +1,1211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.menu{
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    left: -100%;
+    z-index: 1;
+    overflow: auto;
+    background-color: #1F3044;
+    transition: all .5s ease;
+    z-index: 2;
+}
+.login{
+    padding: 19px;
+    border-bottom: 1px solid grey;
+}
+.packages{
+    font-size: 22px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 38px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+.packages > div > i {
+    transition: transform .5s ease-in-out; /* Transition for transform with timing function */
+    margin-left: 20px;
+    padding-top: 4px;
+    font-size: 18px;
+}
+.menuItems{
+    display: flex;
+    
+    
+}
+
+.subCategory{
+    display: none;
+}
+.subCategory >a>p{
+    font-size: 18px;
+    padding: 13px 0px;  
+}
+#ckBox{
+    display: none;
+}
+#ckBox:checked ~ .menu{
+    left: 0%;
+}
+#ckBox:checked ~ .overlay{
+    
+}
+
+
+.overlayContainer{
+            position: relative;
+}
+
+.overlay{
+    
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        left: 0%;
+        position: absolute;
+        display: none;
+        opacity: .5;
+        z-index: 1;
+    
+}
+.navBar{
+    background-color: #1C2834;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+}
+.navItems{
+    padding: 15px;
+    font-weight: 100;
+}
+
+.navBar input{
+    
+}
+
+.lbl{
+    display: none;
+}
+
+@media (max-width:704px) {
+    .navItems{
+        display: none;
+    }
+    .navBar{
+        justify-content: start;
+    }
+    .lbl{
+        display: block;
+        padding: 11px 18px;
+        width: 50px;
+        cursor: pointer;
+    } 
+    .lbl i{
+    
+        display: inline-block;
+        transform: scaleX(1.53);
+        transform-origin: left;
+    }
+    .searchBar{
+        height: 50px !important;
+        
+    }
+    .searchBar input{
+        font-size: 16px !important;
+    }
+    .searchBar i{
+        font-size: 14px !important;
+        padding-right: 10px !important;
+        color: #868C94;
+    }
+    .pubDevLogo{
+        margin-top: 20px;
+        height: 40px !important;
+        width: 100%;
+        display: flex;
+        margin-bottom: 40px !important;
+        
+        gap: 20px !important;
+        
+    }
+    .pubDevLogo h1{
+        font-size: 35px !important;
+        
+        font-weight: 100 !important;
+    }
+    .metaDataTwo{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #878C92;
+        justify-content: center;
+    }
+    .metaDataTwo img{
+        padding-top: 8px;
+        height: 45px !important;   
+    }
+    
+    .fovouritesPackages h4{
+        margin-top: 10px;
+        position: static !important;
+        margin-bottom: 15px;
+        max-height: calc(1.3em * 2); /* Calculate max height based on line height and number of lines */
+                                     /*text-overflow: ellipsis; /* Display an ellipsis (...) for truncated content */
+        line-height: 1.3; /* Adjust line height for better readability */
+                                    /*margin-bottom: 10px; /* Add space below each element */
+    }
+    .fovouritesPackages{
+        width: 100% !important; /* Overrides the default width */
+        justify-content: start !important;
+        height: fit-content !important;
+    }
+    .fovouritesPackages{
+        display: block !important;
+    }
+    .tiles {
+            width: 100% !important; /* Overrides the default width */
+            justify-content: start !important;
+            height: fit-content !important;
+        }
+        .tiles h4{
+            margin-top: 10px;
+            
+            position: static !important;
+            margin-bottom: 15px;
+            
+            
+            max-height: calc(1.3em * 2); /* Calculate max height based on line height and number of lines */
+            /*text-overflow: ellipsis; /* Display an ellipsis (...) for truncated content */
+            line-height: 1.3; /* Adjust line height for better readability */
+            /*margin-bottom: 10px; /* Add space below each element */
+        }
+        .containerTwo{
+            justify-content: start !important;
+            padding-left: 10px !important;
+        }
+        
+    .popularPackageContainer{
+        
+        
+    }   
+     .contentBoxTDP{
+        padding-right: 20px !important;
+        
+        
+     }
+     .tilesContainerPt{
+        
+        width: 100% !important;
+        margin: 0px !important;
+        
+     }
+     .tilesContainer{
+        
+        width: 100% !important;
+     }
+    .parentContainerTwo{
+        justify-content: start !important;
+        padding-left: 20px;
+        
+        
+    }
+    
+ 
+.fpC{
+    width: fit-content;
+    /*background-color: #1967d2;*/
+    display: flex;
+    
+    flex-direction: column;
+    
+    
+}
+.fpTC{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+    justify-content: start;
+    padding: 1px;
+}
+.fovouritesPackages{
+    width: 100% !important;
+    align-items: start !important;
+    padding: 30px !important;
+    /*
+    padding: 0px 35px;
+    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+    
+    
+}
+
+.flutterFavouritesBox{
+    width: 100% !important;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-right: 15px;
+    padding-left: 8px;
+    
+    padding-top: 50px;
+}
+    .searchBar{
+        opacity: 1;
+    }
+    
+
+    
+    
+}
+
+
+
+.containerOne{
+    height: 85%;
+    display: flex;
+    position: relative;
+    padding: 70px 0px;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url(	https://pub.dev/static/hash-e7hg8u54/img/hero-bg-static.svg);
+    background-size: cover;
+}
+.helpContainerParent{
+    top: 0px;
+    right: 25px;
+    display: none;
+    position: absolute;
+}
+.helpContainer{
+    
+    height: fit-content;
+    width: fit-content;
+    padding: 0px 10px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    display: flex;
+    
+    background-color: #1F3044;
+}
+.miniHelpContainer{
+    height: fit-content;
+    padding: 0px 10px;
+    
+}
+.miniHelpContainer h3{
+    border-bottom: 1px solid #4A5868;
+    color: #F8F9EE;
+    font-weight: 100;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.miniHelpContainer p{
+    margin-bottom: 5px;
+    color: #f8f9fa;
+}
+.miniHelpContainer p:hover{
+    color: #C3C8CE;
+}
+.navItems:last-child:hover ~ .helpContainerParent{
+    display: block;
+    
+}
+.pubDevBox{
+    height: 90%;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.pubDevLogo{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    
+}
+.pubDevLogo img{
+    height: 100%;
+}
+.pubDevLogo h1{
+    font-size: 52px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+
+.searchBar{
+    height: 80px;
+    width: 980px;
+    border-radius: 45px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #35404D;
+}
+@media (max-width:1057px) {
+    .searchBar{
+        width: 92%;
+        
+    }
+}
+.searchBar input{
+    width: 100%;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+.searchBar i{
+    font-size: 20px;
+    padding-right: 20px;
+    color: #868C94;
+}
+
+
+.metaDataOne{
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.metaDataOne h1{
+    font-weight: 100;
+}
+a{
+    color: #2989C4;
+    text-decoration: none;
+}
+
+
+.metaDataTwo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #878C92;
+    justify-content: center;
+}
+.metaDataTwo img{
+    padding-top: 8px;
+    height: 50px;   
+}
+
+
+
+
+.containerTwo{
+    background-color: #F5F5F7;
+    
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    
+    
+}
+
+
+.flutterFavouritesBox{
+    width: 1300px;   
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    padding-left: 10px;
+    
+    padding-top: 50px;
+}
+.flutterFavouritesBox h1{
+    font-weight: 400;   
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #254a76;
+}
+.flutterFavouritesBox #desc{
+    font-size: 20px;
+    font-weight: 500;   
+    margin-bottom: 20px;
+}
+
+.fpC{
+    width: fit-content;
+    
+    /*background-color: #1967d2;*/
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.fpTC{
+    width: 100%;
+    /*background-color: #1967d2;*/
+    display: flex;
+    gap: 15px;
+    
+    justify-content: start;
+    padding: 1px;
+}
+
+.fovouritesPackages{
+    width: 260px;
+    position: relative;
+    height:190px;
+    padding: 30px;
+    padding-bottom: 35px;
+    padding-right: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  
+    0px 4px 6px rgba(0, 0, 0, 0.2), /* Bottom shadow */
+    0px -2px 6px rgba(0, 0, 0, 0.08), /* Top shadow */
+    2px 0px 6px rgba(0, 0, 0, 0.08), /* Right shadow */
+    -2px 0px 6px rgba(0, 0, 0, 0.08); /* Left shadow */ 
+}
+.fovouritesPackages h2{
+    font-size: 21px;
+    font-weight: 100;
+    color: #1967d2;
+    
+}
+.fovouritesPackages > h2 :hover{
+    color:#72affd;
+}
+.fovouritesPackages p{
+    font-size: 14px;
+    color: #254a76;  
+    overflow: hidden; /* Hide any content that exceeds the max height */
+    
+}
+.fovouritesPackages > p>a:hover{
+    color: #8B9EB6;
+}
+.fovouritesPackages h4{
+    position: absolute;
+    font-size: 15px;    
+    color: #4a4a4a;
+    font-weight: 100;
+    height:100%;
+    top: 60px;
+    left: 30px;
+    right: 35px;
+    overflow: hidden;
+    max-height: calc(1.3em * 3); /* Calculate max height based on line height and number of lines */
+    /*text-overflow: ellipsis; /* Display an ellipsis (...) for truncated content */
+    line-height: 1.3; /* Adjust line height for better readability */
+    /*margin-bottom: 10px; /* Add space below each element */
+}
+
+.tiles > h4{
+    color: #4A4A4A;
+    position: absolute;
+    
+    top: 60px;
+    left: 30px;
+    right: 35px;
+    overflow: hidden;
+    max-height: calc(1.3em * 3); /* Calculate max height based on line height and number of lines */
+    /*text-overflow: ellipsis; /* Display an ellipsis (...) for truncated content */
+    line-height: 1.3; /* Adjust line height for better readability */
+    /*margin-bottom: 10px; /* Add space below each element */
+
+}
+
+.fovouritesPackages:hover{
+    background-color: #FAFAFA;
+    box-shadow:
+    0px 5px 10px rgba(0, 0, 0, 0.3), /* Bottom shadow */
+    0px -2px 6px rgba(0, 0, 0, 0.08), /* Top shadow */
+    2px 0px 6px rgba(0, 0, 0, 0.08), /* Right shadow */
+    -2px 0px 6px rgba(0, 0, 0, 0.08); /* Left shadow */  ;
+}
+
+.viewAll{
+    float: right;
+    color: #254a76;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+    
+}
+
+@media (max-width: 1213px) {
+    .flutterFavouritesBox{
+      width: max-content;
+      
+      
+      
+    }
+  }
+@media (max-width: 1258px) {
+    .fovouritesPackages:nth-child(4n) {
+      display:none;
+      
+    }
+    .containerTwo{
+        padding-left: 60px;
+        
+        justify-content: center;
+    }
+    .flutterFavouritesBox{
+        width: 1000px;
+    }
+  }
+@media (max-width:992px) {
+    .containerTwo{
+        padding-left: 0px;
+    }
+    .fovouritesPackages:nth-child(3n){
+        display: none;
+    }
+    .flutterFavouritesBox{
+        width: 600px;
+    }
+}
+
+
+
+
+.containerThree{
+    background-size: cover;
+    background-image:  url('./images/square-bg-full-2x.webp');
+}
+
+
+
+
+
+.popularPackageContainer{
+    padding-top: 50px;
+    
+    width: 100%;
+    display: flex;
+    
+    /*justify-content:center;*/
+    
+    
+}
+
+.parentContainer{
+    width: 900px;
+    padding-left: 30px;
+   /* height: 500px;*/
+    padding-right: 20px;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.immgBox{
+    margin-top: 170px;
+    flex: 1;
+    height: 300px;
+    background-color: transparent;
+    
+}
+.immgBox img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenttBox{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: start;
+    background-color: lightcoral;
+    
+}
+.contenttBox >h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #254A76;
+}
+
+.contenttBox >p{
+    color: #4A4A4A;
+    margin-bottom: 20px;
+    
+}
+.tilesContainerPt{
+    
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.tilesContainerPt h3{
+    float: right;
+    margin-top: 5px;
+}
+/*
+.tilesContainerParent{
+    display: flex;
+    width: fit-content;
+    
+    
+    background-color: rgb(83, 47, 47);
+    flex-direction: column;
+    margin-left: 10px;
+    padding-right: 0px;
+    margin-right: 20px;
+}
+*/
+
+.tilesContainer{
+    width:fit-content;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    
+    
+}
+.tiles{
+    width: 260px;
+    position: relative;
+    height:190px;
+    padding: 30px;    
+    padding-bottom: 35px;
+    padding-right: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  
+    0px 4px 6px rgba(0, 0, 0, 0.2), /* Bottom shadow */
+    0px -2px 6px rgba(0, 0, 0, 0.08), /* Top shadow */
+    2px 0px 6px rgba(0, 0, 0, 0.08), /* Right shadow */
+    -2px 0px 6px rgba(0, 0, 0, 0.08); /* Left shadow */ 
+}
+
+.tiles:hover{
+    background-color: #FAFAFA;
+    box-shadow:
+    0px 5px 10px rgba(0, 0, 0, 0.3), /* Bottom shadow */
+    0px -2px 6px rgba(0, 0, 0, 0.08), /* Top shadow */
+    2px 0px 6px rgba(0, 0, 0, 0.08), /* Right shadow */
+    -2px 0px 6px rgba(0, 0, 0, 0.08); /* Left shadow */  ;
+}
+.tiles > h2{
+    color: #1967d2;
+    font-size: 21px;
+    
+    font-weight: 100;
+}
+.tiles > h2 :hover{
+    color:#72affd;
+}
+.tiles > h4{
+    color: #4A4A4A;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 100;
+    top: 60px;
+    left: 30px;
+    right: 35px;
+    overflow: hidden;
+    max-height: calc(1.3em * 3); /* Calculate max height based on line height and number of lines */
+    /*text-overflow: ellipsis; /* Display an ellipsis (...) for truncated content */
+    line-height: 1.3; /* Adjust line height for better readability */
+    /*margin-bottom: 10px; /* Add space below each element */
+
+}
+.tiles > p{
+    font-size: 14px;
+}
+.tiles > p>a:hover{
+    color: #8B9EB6;
+}
+.tilesContainerParent div h3{
+    
+    background-color:aliceblue;
+}
+.viewALL{
+    /*background-color: yellow;*/
+    padding-top: 10px;
+    float:right;
+    
+    
+}
+
+
+@media (max-width: 1142px) {
+    .immgBox {
+      display: none;      
+    }
+    .iB{
+        display: none;
+    }
+    .imageBoxTDP{
+        display: none;
+    }
+    
+  }
+
+
+@media (max-width: 1038px) {
+    .tilesContainer {
+      width:fit-content;
+      /*justify-content: center;*/
+      
+    }
+  }
+  @media (max-width:992px) {
+    .tilesContainer{
+        width: 530px;
+        
+    }
+    
+.contenttBox{
+   padding-left: 90px;
+}
+.cB{
+    width: 600px;
+    
+}
+ 
+}
+
+
+  .topPackageContainer{
+    margin-top: 80px;
+    
+    
+    width: 100%;
+    display: flex;
+    
+  }
+
+  .parentContainerTwo{
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+  }
+
+  .iB{
+    margin-top: 160px;
+    flex: 1;
+    height: 330px;
+    margin-right: 90px;
+    margin-left:-100px ;
+    
+  }
+  .iB img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .cB{
+   width: 850px;
+    padding-left: 0px;
+    
+    display: flex;
+
+    flex-direction: column;
+    gap: 15px;
+    align-content: center;
+    
+    background-color: lightblue;
+  }
+  .cB >h1{
+    margin-top: 50px;
+    
+    color: #254A76;
+}
+
+.cB>p{
+    color: #4A4A4A;
+    margin-bottom: 5px;
+    
+}
+
+.vA>h3{
+   float: right;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    /*background-color: blanchedalmond;*/
+}
+
+
+
+
+
+
+
+
+.topDartPackages{
+    margin-top: 50px;
+    width: 100%;
+    /*background-color: rgb(243, 154, 154);*/
+    display: flex;
+    
+}
+.parentContainerThree{
+    width: 1290px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.contentBoxTDP{
+    width: 850px;
+    display: flex;
+    
+    
+    flex-direction: column;
+    padding-right: 30px;
+}
+.contentBoxTDP > h1{
+    /*margin-bottom: 15px;*/
+    font-weight: 400;   
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #254a76;
+}
+.contentBoxTDP >p{
+    /*margin-bottom: 25px;*/
+    font-size: 20px;
+    font-weight: 500;   
+    margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+    .contentBoxTDP{
+      width:fit-content;
+      /*justify-content: center;*/
+      
+    }
+  }
+.contentBoxTDP >h1{
+    margin-bottom: 10px;
+    
+}
+.contentBoxTDP >p{
+    margin-bottom: 20px;
+}
+.contentBoxTDP>div> h3{
+    margin-top: 15px;
+    float: right;
+    width: max-content;
+    
+}
+
+.imageBoxTDP{
+    flex: 1;
+    width: 10px;
+    margin-top: 150px;
+    height: 300px;
+    
+}
+.imageBoxTDP img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.containerFour{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: end;
+    background-color: #F5F5F7;
+}
+.packageOfTheWeek{
+    width: fit-content;
+    height: fit-content;
+    background-color: #F5F5F7;
+    
+    color: white;
+}
+.packageOfTheWeek h1{
+    /*margin-bottom: 15px;*/
+    font-weight: 400;   
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #254a76;
+}
+.packageOfTheWeek p{
+    /*margin-bottom: 25px;*/
+     
+    font-size: 20px;
+    font-weight: 500;  
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+.packageOfTheWeek h3{
+    float: right;
+}
+
+.videoTilesContainer{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: transparent;
+}
+.videoTiles > a{
+    
+        text-decoration: none; /* Remove underline */
+        color: inherit; /* Inherit color from parent */
+        background: none; /* Remove any background color */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+        border: none; /* Remove any border */
+        outline: none; /* Remove outline */
+        font: inherit; /* Inherit font properties */
+        cursor: pointer; /* Set cursor to pointer */
+         /* Ensure block-level behavior if needed */
+    
+    
+}
+.videoTiles{
+    height: 200px;
+    width: 288px;
+    
+    padding: 20px 0px;
+    background-color: black;
+}
+.videoTilesContent{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #042D58;
+}
+.videoTilesContentHeading{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 0;
+    
+}
+.pOTW{
+    
+}
+.videoTilesContentName{
+    
+    /*z-index: 1;*/
+    font-size: 25px;
+    
+}
+.playButtonParent{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 59px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.playButton{
+    height: 55px;
+    width: 80px;
+    
+    /*border-radius: 25px / 75px  ;*/
+    /*border-radius: 0px 20px 20px 0px / 20px 50px 50px 20px;*/
+    border-radius: 10%/50%;
+    border-radius: 10px 10px 10px 10px/60px 60px 60px 60px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: black;
+    opacity: .7;
+    color: white;
+    
+    
+}
+.playButton::before {
+    content: '';
+    position: absolute;
+    height: 65px;
+    
+    width: 70px;
+    border-radius: 60px 60px 60px 50px/10px 10px 10px 10px;
+    background-color: black;
+    
+}
+.videoTiles:hover .playButton{
+    opacity: 1;
+    background-color: red;
+}
+.videoTiles:hover .playButton::before{
+    background-color: red;
+}
+.playButtonParent > i{
+    font-size: 45px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.playButton i{
+    z-index: 3;
+    font-size: 45px;
+    position: absolute;
+    
+    /*color:  rgba(255, 255, 255, 1);*/
+}
+@media (max-width:704px) {
+    
+.containerFour{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F7;
+}
+.packageOfTheWeek{
+    width: 92% !important;
+    height: fit-content;
+    background-color: #F5F5F7;
+    
+    color: white;
+}
+    .videoTiles{
+        height: 60vw;
+        width: 100%;
+        padding: 7vw 0px;
+        display: block !important;
+        
+        background-color: #1C2834;
+    }   
+    .videoTilesContainer{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        position: relative;
+        
+    }
+    .videoTilesContentHeading{
+        position: absolute;
+        font-size: 4vw !important;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }   
+    .videoTilesContentName{
+        font-size: 6vw;
+        text-wrap: nowrap;
+        
+    }
+     
+}
+  
+footer{
+    
+    display: flex;
+    padding: 35px 69px;
+    
+    justify-content: center;
+    color: white;
+    background-color: #27323A;
+    flex-wrap: wrap;
+}
+footer a{
+    display: flex;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+}
+footer h4{
+    font-weight: 100;
+    display: flex;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+}
+footer>*{
+    color: white;
+    border-right: 1px solid white;
+    padding-left: 14px;
+    
+    padding-right: 14px;
+}
+footer>:last-child{
+    display: flex;
+    gap: 10px;
+    border: none;
+}
+
+@media (max-width: 1258px) {
+    .videoTiles:nth-child(4n) {
+      display:none;
+      
+    }
+  }
+@media (max-width:992px) {
+    .videoTiles:nth-child(3n){
+        display: none;
+    }
+    .packageOfTheWeek{
+        width: 600px;
+    }
+}
+
+

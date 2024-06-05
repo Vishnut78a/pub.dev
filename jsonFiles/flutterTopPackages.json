@@ -1,0 +1,98 @@
+[
+    {
+      "name":"audioplayers",
+      "metaData":"A Flutter plugin to play multiple audio files simultaneously",
+      "url":"https://pub.dev/packages/audioplayers",
+      "publisher":"blue-fire.xyz"
+    },
+    {
+      "name":"grouped_list",
+      "metaData":"A Flutter ListView where the list items can be grouped into sections.",
+      "url":"https://pub.dev/packages/grouped_list",
+      "publisher":"begnis.dev"
+    },
+    {
+      "name":"pdf",
+      "metaData":"A pdf producer for Dart. It can create pdf files for both web or flutter.",
+      "url":"https://pub.dev/packages/pdf",
+      "publisher":"nfet.net"
+    },
+    {
+      "name":"http",
+      "metaData":"A composable, multi-platform, Future-based API for HTTP requests.",
+      "url":"https://pub.dev/packages/http",
+      "publisher":"dart.dev"
+    },
+    {
+      "name":"dio",
+      "metaData":"A powerful HTTP networking package, supports Interceptors, Aborting and canceling a request, Custom adapters, Transformers, etc.",
+      "url":"https://pub.dev/packages/dio",
+      "publisher":"flutter.cn"
+    },
+    {
+      "name":"cached_network_image",
+      "metaData":"Flutter library to load and cache network images. Can also be used with placeholder and error widgets.",
+      "url":"https://pub.dev/packages/cached_network_image",
+      "publisher":"baseflow.com"
+    },
+    {
+      "name":"permission_handler",
+      "metaData":"Permission plugin for Flutter. This plugin provides a cross-platform (iOS, Android) API to request and check permissions.",
+      "url":"https://pub.dev/packages/permission_handler",
+      "publisher":"baseflow.com"
+    },
+    {
+      "name":"file_picker",
+      "metaData":"A package that allows you to use a native file explorer to pick single or multiple absolute file paths, with extension filtering support.",
+      "url":"https://pub.dev/packages/file_picker",
+      "publisher":"miguelruivo.com"
+    },
+    {
+      "name":"geolocator",
+      "metaData":"Geolocation plugin for Flutter. This plugin provides a cross-platform (iOS, Android) API for generic location (GPS etc.) functions.",
+      "url":"https://pub.dev/packages/geolocator",
+      "publisher":"baseflow.com"
+    },
+    {
+      "name":"webview_flutter",
+      "metaData":"A Flutter plugin that provides a WebView widget on Android and iOS.",
+      "url":"https://pub.dev/packages/webview_flutter",
+      "publisher":"flutter.dev"
+    },
+    {
+      "name":"flutter_native_splash",
+      "metaData":"Customize Flutter's default white native splash screen with background color and splash image. Supports dark mode, full screen, and more.",
+      "url":"https://pub.dev/packages/flutter_native_splash",
+      "publisher":"jonhanson.net"
+    },
+    {
+      "name":"google_maps_flutter",
+      "metaData":"A Flutter plugin for integrating Google Maps in iOS and Android applications.",
+      "url":"https://pub.dev/packages/google_maps_flutter",
+      "publisher":"flutter.dev"
+    },
+    {
+      "name":"shimmer",
+      "metaData":"A package provides an easy way to add shimmer effect in Flutter project",
+      "url":"https://pub.dev/packages/shimmer",
+      "publisher":"hunghd.dev"
+    },
+    {
+      "name":"go_router ",
+      "metaData":"A declarative router for Flutter based on Navigation 2 supporting deep linking, data-driven routes and more",
+      "url":"https://pub.dev/packages/go_router",
+      "publisher":"flutter.dev"
+    },
+    {
+      "name":"google_sign_in",
+      "metaData":"Flutter plugin for Google Sign-In, a secure authentication system for signing in with a Google account.",
+      "url":"https://pub.dev/packages/google_sign_in",
+      "publisher":"flutter.dev"
+    },
+    {
+      "name":"get_it ",
+      "metaData":"Simple direct Service Locator that allows to decouple the interface from a concrete implementation and to access the concrete implementation from everywhere in your App",
+      "url":"https://pub.dev/packages/get_it",
+      "publisher":"fluttercommunity.dev"
+    }
+  ]

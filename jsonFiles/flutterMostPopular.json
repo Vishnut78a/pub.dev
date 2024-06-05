@@ -1,0 +1,101 @@
+[
+      {
+          "name":"cupertino_icons",
+          "metaData":"Default icons asset for Cupertino widgets based on Apple styled icons",
+          "url":"https://pub.dev/packages/cupertino_icons",
+          "publisher":"flutter.dev"
+  
+      },
+      {
+        "name":"image_picker",
+        "metaData":"Flutter plugin for selecting images from the Android and iOS image library, and taking new pictures with the camera.",
+        "url":"https://pub.dev/packages/image_picker",
+        "publisher":"flutter.dev"
+      },
+      {
+        "name":"rxdart",
+        "metaData":"RxDart is an implementation of the popular reactiveX api for asynchronous programming, leveraging the native Dart Streams api",
+        "url":"https://pub.dev/packages/rxdart",
+        "publisher":"fluttercommunity.dev"
+      },
+      {
+        "name":"video_player",
+        "metaData":"Flutter plugin for displaying inline video with other Flutter widgets on Android, iOS, and web",
+        "url":"https://pub.dev/packages/video_player",
+        "publisher":"flutter.dev"
+      },
+      {
+        "name":"json_annotation",
+        "metaData":"Classes and helper functions that support JSON code generation via the `json_serializable` package.",
+        "url":"https://pub.dev/packages/json_annotation",
+        "publisher":"google.dev"
+      },
+      {
+        "name":"auto_size_text",
+        "metaData":"A flutter package to let users easily add a dashed border around any widget.",
+        "url":"https://pub.dev/packages/url_launcher",
+        "publisher":"flutter.dev"
+      },
+      {
+        "name":"auto_size_text",
+        "metaData":"Flutter widget that automatically resizes text to fit perfectly within its bounds.",
+        "url":"https://pub.dev/packages/auto_size_text",
+        "publisher":"simc.dev"
+      },
+      {
+        "name":"google_maps_flutter",
+        "metaData":"A Flutter plugin for integrating Google Maps in iOS and Android applications.",
+        "url":"https://pub.dev/packages/google_maps_flutter",
+        "publisher":"flutter.dev"
+      },
+      {
+        "name":"flutter_bloc",
+        "metaData":"Flutter Widgets that make it easy to implement the BLoC (Business Logic Component) design pattern. Built to be used with the bloc state management package.",
+        "url":"https://pub.dev/packages/flutter_bloc",
+        "publisher":"flutter.dev"
+      },
+      {
+        "name":"fl_chart",
+        "metaData":"A highly customizable Flutter chart library that supports Line Chart, Bar Chart, Pie Chart, Scatter Chart, and Radar Chart.",
+        "url":"https://pub.dev/packages/fl_chart",
+        "publisher":"flutter4fun.com"
+      },
+      {
+        "name":"uuid",
+        "metaData":"RFC4122 (v1, v4, v5, v6, v7, v8) UUID Generator and Parser for Dart",
+        "url":"https://pub.dev/packages/uuid",
+        "publisher":"yuli.dev"
+      },
+      {
+        "name":"analyzer",
+        "metaData":"This package provides a library that performs static analysis of Dart code.",
+        "url":"https://pub.dev/packages/analyzer",
+        "publisher":"tools.dart.dev"
+      },
+      {
+        "name":"flutter_launcher_icons ",
+        "metaData":"A package which simplifies the task of updating your Flutter app's launcher icon.",
+        "url":"https://pub.dev/packages/flutter_launcher_icons",
+        "publisher":"fluttercommunity.dev"
+      },
+      {
+        "name":"intl",
+        "metaData":"Contains code to deal with internationalized/localized messages, date and number formatting and parsing, bi-directional text, and other internationalization issues.",
+        "url":"https://pub.dev/packages/intl",
+        "publisher":"dart.dev"
+      },
+      {
+        "name":"csslib",
+        "metaData":"A library for parsing and analyzing CSS (Cascading Style Sheets).",
+        "url":"https://pub.dev/packages/csslib",
+        "publisher":"tools.dart.dev"
+      },
+      {
+        "name":"get",
+        "metaData":"Open screens/snackbars/dialogs without context, manage states and inject dependencies easily with GetX.",
+        "url":"https://pub.dev/packages/get",
+        "publisher":"getx.site"
+      }
+    
+]
+  

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <nav class="navBar">
+        <input type="checkbox" name="dsa" id="ckBox">
+        <label for="ckBox"  class="lbl">
+            <i class="ri-menu-line"></i>
+        </label>
+        <div class="menu">
+            <div class="login">
+                <a href="https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S252695554%3A1716052243095633&client_id=818368855108-ulq5tn5t51ga21hg8jkcavbooaljiasp.apps.googleusercontent.com&ddm=0&nonce=c8c7ec9f-fdcb-40dc-8526-4e9b2765f72e&o2v=2&redirect_uri=https%3A%2F%2Fpub.dev%2Fsign-in%2Fcomplete&response_type=code&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&service=lso&state=eyJnbyI6Ii8ifQ%3D%3D&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANi9uch3PpwxI_5BxmzBe-RYth5-tyj09QlrXoZFYWAi-qtxA0ncRvL6PvJ8BmM_099oJzvGSxTB0OVQLrPKqU_Uxf8B9TQnY2hYSnkmjDGcQvkYrJTkRReVtHyubsLcZXm8OXD_XOpxwWKxRK93437SplEyf3l4s4OEjYxaCZ0Ag9pdryO0EawfHeVsuRxEAD63gPMvRxczGY9s2zeRROM3bwm6l1Sj5FOiucjCHbl6jc05ow2dKcXTOOVXUCXL4eVD3d_pROyGE3ZpyfkpK2HRgT8WtsWZvgu1uYBTJWFAgPNq1yQYQ7Mj3a3JHfLWCcL9kdMKSx8gKC6UkrUIXQX0DkZSvwh7YIk7UXdeD-4WFbIv_SWnwX9jNVwbh76EkPo8hpSgQcAqPkRbvasqq4v5wAau-AJDyWeW8NKRL1ERpSxe1VDzZZD-YyD-tUxycDTBDXNAYEX1ChUgLT-WvfNZkknAA%26flowName%3DGeneralOAuthFlow%26as%3DS252695554%253A1716052243095633%26client_id%3D818368855108-ulq5tn5t51ga21hg8jkcavbooaljiasp.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fpub.dev&rart=ANgoxceMU698Y44mgu_lJooesj9nPt63NtoLd6rlYE1NGaMXP_IFCxO0HXuLz0KS5l5vAaVMMZVyWtH0brcOyYXlA74P_OLQHTwvCv2EPXi3Cr4KE3e1VaU"
+                style="color:#f8f9fa"> Sign in</a>
+            </div>
+            <div class="packages">
+                <div class="menuItems">Pub.dev <i class="ri-arrow-right-wide-line"></i></div>
+                <div class="subCategory">
+                    <a href="https://pub.dev/help/search" style="color: #C3C8CE" target="d"><p>Searching for packages</p></a>
+                    <a href="https://pub.dev/help/scoring" style="color: #C3C8CE" target="d"><p>Package scoring and pub points</p></a>
+                </div>
+            </div>
+            <div class="packages">
+                <div class="menuItems">Flutter<i class="ri-arrow-right-wide-line"></i></div>
+                <div class="subCategory">
+                    <a href="https://docs.flutter.dev/packages-and-plugins/using-packages" style="color: #C3C8CE" target="d"><p>Using packages</p></a>
+                    <a href="https://docs.flutter.dev/packages-and-plugins/developing-packages" style="color: #C3C8CE" target="d"><p>Developing packages and plugins</p></a>
+                    <a href="https://dart.dev/tools/pub/publishing" style="color: #C3C8CE" target="d"><p>Publishing a package</p></a>
+                </div>
+            </div>
+            <div class="packages">
+                <div class="menuItems">Dart<i class="ri-arrow-right-wide-line"></i></div>
+                <div class="subCategory">
+                    <a href="https://dart.dev/guides/packages" style="color: #C3C8CE" target="d"><p>Using packages</p></a>
+                    <a href="https://dart.dev/tools/pub/publishing" style="color: #C3C8CE" target="d"><p>Publishing a package</p></a>
+                </div>
+            </div>
+        </div>
+        <h4 class="navItems">
+            <a href="https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S252695554%3A1716052243095633&client_id=818368855108-ulq5tn5t51ga21hg8jkcavbooaljiasp.apps.googleusercontent.com&ddm=0&nonce=c8c7ec9f-fdcb-40dc-8526-4e9b2765f72e&o2v=2&redirect_uri=https%3A%2F%2Fpub.dev%2Fsign-in%2Fcomplete&response_type=code&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&service=lso&state=eyJnbyI6Ii8ifQ%3D%3D&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANi9uch3PpwxI_5BxmzBe-RYth5-tyj09QlrXoZFYWAi-qtxA0ncRvL6PvJ8BmM_099oJzvGSxTB0OVQLrPKqU_Uxf8B9TQnY2hYSnkmjDGcQvkYrJTkRReVtHyubsLcZXm8OXD_XOpxwWKxRK93437SplEyf3l4s4OEjYxaCZ0Ag9pdryO0EawfHeVsuRxEAD63gPMvRxczGY9s2zeRROM3bwm6l1Sj5FOiucjCHbl6jc05ow2dKcXTOOVXUCXL4eVD3d_pROyGE3ZpyfkpK2HRgT8WtsWZvgu1uYBTJWFAgPNq1yQYQ7Mj3a3JHfLWCcL9kdMKSx8gKC6UkrUIXQX0DkZSvwh7YIk7UXdeD-4WFbIv_SWnwX9jNVwbh76EkPo8hpSgQcAqPkRbvasqq4v5wAau-AJDyWeW8NKRL1ERpSxe1VDzZZD-YyD-tUxycDTBDXNAYEX1ChUgLT-WvfNZkknAA%26flowName%3DGeneralOAuthFlow%26as%3DS252695554%253A1716052243095633%26client_id%3D818368855108-ulq5tn5t51ga21hg8jkcavbooaljiasp.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fpub.dev&rart=ANgoxceMU698Y44mgu_lJooesj9nPt63NtoLd6rlYE1NGaMXP_IFCxO0HXuLz0KS5l5vAaVMMZVyWtH0brcOyYXlA74P_OLQHTwvCv2EPXi3Cr4KE3e1VaU"
+            style="color:#f8f9fa">Sign in</a>    
+        </h4>
+        <a href=""style="color:#f8f9fa" class="noreload">
+            <h4 class="navItems" id="hel">Help<i class="ri-arrow-down-s-line"></i></h4>
+        </a>
+    </nav>
+    <div class="overlayContainer">
+        <div class="overlay"></div>
+        <div class="containerOne">
+            <div class="helpContainerParent">
+                <div class="helpContainer">
+                    <div class="miniHelpContainer">
+                        <h3>Pub.dev</h3>
+                        <a href="https://pub.dev/help/search" target="d"><p>Searching for packages</p></a>
+                        <a href="https://pub.dev/help/scoring" target="d"><p>Package scoring and pub points</p></a>
+                    </div>
+                    <div class="miniHelpContainer">
+                        <h3>Flutter</h3>
+                        <a href="https://docs.flutter.dev/packages-and-plugins/using-packages" target="d"><p>Using packages</p></a>
+                        <a href="https://docs.flutter.dev/packages-and-plugins/developing-packages" target="d"><p>Developing packages and plugins</p></a>
+                        <a href="https://dart.dev/tools/pub/publishing" target="d"><p>Publishing a package</p></a>
+                        
+                    </div>
+                    <div class="miniHelpContainer">
+                        <h3>Dart</h3>
+                        <a href="https://dart.dev/guides/packages" target="d"><p>Using packages</p></a>
+                        <a href="https://dart.dev/tools/pub/publishing" target="d"><p>Publishing a package</p></a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="pubDevBox">
+                <div class="pubDevLogo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Dart_logo.png/768px-Dart_logo.png"
+                        alt="" srcset="">
+                    <h1>pub.dev</h1>
+                </div>
+                <div class="searchBar">
+                    <i class="ri-search-line"></i>
+                    <input type="text" placeholder="Search packages" class="searchInput">
+                </div>
+                <div class="metaDataOne">
+                    <h1>The official package repository for <a href="https://dart.dev/" target="_blank">Dart</a> and <a href="https://flutter.dev/" target="d">Flutter</a> apps.</h1>
+                </div>
+                <div class="metaDataTwo">
+                    Supported by <img
+                        src="https://assetsacara.com/production/organizations/61af15b9d0fa9de546caeded/1646268066394-Google-black.png"
+                        alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="overlayContainer">
+        <div class="overlay"></div>
+        <div class="containerTwo">
+        
+            <div class="flutterFavouritesBox">
+                <h1>Flutter Favorites</h1>
+                <p id="desc">Some of the packages that demonstrate the highest levels of quality, selected by the Flutter
+                    Ecosystem
+                    Committee</p>
+                <div class="fpC">
+                    <div class="fpTC">
+                        <div class="fovouritesPackages">
+                            <h2>heading</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a.</h4>
+                            <p>publisher</p>
+                        </div>
+                        <div class="fovouritesPackages">
+                            <h2>heading</h2>
+                            <h4>LLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a. dolor sit amet consectetur
+                                adipisicing elit. Moorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a.</h4>
+                            <p>publisher</p>
+                        </div>
+                        <div class="fovouritesPackages">
+                            <h2>heading</h2>
+                            <h4>Lorem ipsum dolor sit amet consecLorem ipsum dolor sit amet consecLorem ipsum dolor sit amet
+                                consecLorem ipsum dolor sit amp consecLorem ipsum dolor sit amet conseca</h4>
+                            <p>publisher</p>
+                        </div>
+                        <div class="fovouritesPackages">
+                            <h2>heading</h2>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, a.</h4>
+                            <p>publisher</p>
+                        </div>
+    
+                    </div>
+                    <div>
+                        <h3 class="viewAll">
+                            <a href="https://pub.dev/packages?q=is%3Aflutter-favorite" >VIEW ALL</a>
+                        </h3>
+                    </div>
+                </div>
+    
+    
+    
+            </div>
+        </div>
+    </div>
+    <div class="overlayContainer">
+        <div class="overlay"></div>
+        <div class="containerThree">
+
+            <div class="popularPackageContainer">
+                <div class="parentContainerTwo">
+                    <div class="immgBox">
+                        <img src="https://pub.dev/static/hash-e7hg8u54/img/landing-01.webp" alt="" srcset="">
+                    </div>
+                    <div class="contentBoxTDP">
+                        <h1>Most popular packages</h1>
+                        <p>Some of the most downloaded packages over the past 60 days</p>
+                        <div class="tilesContainerPt">
+                        <div class="tilesContainer">
+                            <div class="tiles">
+                                <h2>heading</h2>
+                                <h4>1Lorem ipsum dolor  amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                    magni
+                                    quidem ut. Eligendi atque illo alias?</h4>
+                                <p>publisher</p>
+                            </div>
+                            <div class="tiles">
+                                <h2>heading</h2>
+                                <h4>2Lorem ipsum dolor sit consectetur adipisicing elit. Incidunt assumenda natus sint
+                                    magni
+                                    quidem ut. Eligendi atque illo alias?</h4>
+                                <p>publisher</p>
+                            </div>
+                            <div class="tiles">
+                                <h2>heading</h2>
+                                <h4>3Lorem ipsum dolor sit amet  adipisicing elit. Incidunt assumenda natus sint
+                                    magni
+                                    quidem ut. Eligendi atque illo alias?</h4>
+                                <p>publisher</p>
+                            </div>
+                            <div class="tiles">
+                                <h2>heading</h2>
+                                <h4>4Lorem ipsum dolor sit amet consectetur  Incidunt assumenda natus sint
+                                    magni
+                                    quidem ut. Eligendi atque illo alias?</h4>
+                                <p>publisher</p>
+                            </div>
+                            <div class="tiles">
+                                <h2>heading</h2>
+                                <h4>5Lorem ipsum dolor adipisicing elit. Incidunt assumenda natus sint
+                                    magni
+                                    quidem ut. Eligendi atque illo alias?</h4>
+                                <p>publisher</p>
+                            </div>
+                            <div class="tiles">
+                                <h2>heading</h2>
+                                <h4>6Lorem  dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                    magni
+                                    quidem ut. Eligendi atque illo alias?</h4>
+                                <p>publisher</p>
+                            </div>
+    
+    
+                        </div>
+                        <div>
+                            <h3 class="vA">
+                                <a href="https://pub.dev/packages?sort=popularity" >VIEW ALL</a>
+                            </h3>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="topPackageContainer">
+                <div class="parentContainerTwo">
+                    <div class="contentBoxTDP">
+                        <h1>Top Flutter packages</h1>
+                        <p>Some of the top packages that extend Flutter with new features</p>
+                        <div class="tilesContainerPt">
+                            <div class="tilesContainer">
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                            </div>
+                            <div class="vA">
+                                <h3><a href="https://pub.dev/packages?q=sdk%3Aflutter" >VIEW ALL</a>
+                                </h3>
+                            </div>
+                        </div>
+                        
+    
+                    </div>
+                    <div class="iB">
+                        <img src="https://pub.dev/static/hash-r9qctkmv/img/landing-02.webp" alt="" srcset="">
+                    </div>
+                </div>
+    
+            </div>
+            <div class="topDartPackages">
+                <div class="parentContainerTwo">
+                    <div class="imageBoxTDP">
+                        <img src="https://pub.dev/static/hash-r9qctkmv/img/landing-03.webp" alt="" srcset="">
+                    </div>
+                    <div class="contentBoxTDP">
+                        <h1>Top Dart packages</h1>
+                        <p>Some of the top packages for any Dart-based app or program</p>
+                        <div class="tilesContainerPt">
+                            <div class="tilesContainer">
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                                <div class="tiles">
+                                    <h2>heading</h2>
+                                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda natus sint
+                                        magni
+                                        quidem ut. Eligendi atque illo alias?</h4>
+                                    <p>publisher</p>
+                                </div>
+                            </div>
+                            <div class="vA">
+                                <h3><a href="https://pub.dev/packages?q=sdk%3Adart" >VIEW ALL</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlayContainer">
+        <div class="overlay"></div>
+        <div class="containerFour">
+            <div class="packageOfTheWeek">
+                <h1>Package of the Week</h1>
+                <p>Package of the Week is a series of quick, animated videos, each of which covers a particular package</p>
+                <div class="videoTilesContainerParent">
+                    <div class="videoTilesContainer">
+                        <div class="videoTiles">
+                            <div class="videoTilesContent">
+                                <div class="videoTilesContentHeading">
+                                    <div class="pOTW">Package Of The Week</div>
+                                    <div class="videoTilesContentName">Content</div>
+                                    <div class="playButtonParent">
+                                        <div class="playButton"></div>
+                                        <i class="ri-play-fill"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="videoTiles">
+                            <div class="videoTilesContent">
+                                <div class="videoTilesContentHeading">
+                                    <div class="pOTW">Package Of The Week</div>
+                                    <div class="videoTilesContentName">Content</div>
+                                    <div class="playButtonParent">
+                                        <div class="playButton"></div>
+                                        <i class="ri-play-fill"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="videoTiles">
+                            <div class="videoTilesContent">
+                                <div class="videoTilesContentHeading">
+                                    <div class="pOTW">Package Of The Week</div>
+                                    <div class="videoTilesContentName">Content</div>
+                                    <div class="playButtonParent">
+                                        <div class="playButton"></div>
+                                        <i class="ri-play-fill"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="videoTiles">
+                            
+                                <div class="videoTilesContent">
+                                    <div class="videoTilesContentHeading">
+                                        <div class="pOTW">Package Of The Week</div>
+                                        <div class="videoTilesContentName">Content</div>
+                                        <div class="playButtonParent">
+                                            <div class="playButton"></div>
+                                            <i class="ri-play-fill"></i>
+                                        </div>                                        
+                                    </div>                     
+                                </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="viewAll">
+                        <h3><a href="https://youtube.com/playlist?list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK"  target="_blank">VIEW PLAYLIST</a></h3>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <div class="overlayContainer">
+        <div class="overlay"></div>
+        <footer>
+
+           <a href=""><h4>Dart language</h4></a>
+           <a href=""><h4>Policy</h4></a>
+           <a href=""><h4>Terms</h4></a>
+           <a href=""><h4>API Terms</h4></a>
+           <a href=""><h4>Security</h4></a>
+           <a href=""><h4>Privacy</h4></a>
+           <a href=""><h4>Help</h4></a>
+           <a href="">
+            <div>
+                <i class="ri-wifi-line"></i>
+                <i class="ri-bug-2-fill"></i>
+            </div>
+           </a>
+    
+    
+        </footer>
+    </div>
+    <script src="./jsonFiles/flutterFavourites.json" id="jsonData" type="application/json"></script>
+    <script src="script.js" ></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+[
+    {
+        "packageName":"feedback",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=1"
+    },
+    {
+        "packageName":"gap",
+        "url":"https://www.youtube.com/watch?v=MqjCIITfCIA&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=2"
+    },
+    {
+        "packageName":"fl_chart",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=3"
+    },
+    {
+        "packageName":"firebase_auth",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=4"
+    },
+    {
+        "packageName":"home_widget",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=5"
+    },
+    {
+        "packageName":"Firebase Analytics",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=6"
+    },
+    {
+        "packageName":"Firestore",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=7"
+    },
+    {
+        "packageName":"Firebase Crashlytics",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=8"
+    },
+    {
+        "packageName":"flutter_animate",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=9"
+    },
+    {
+        "packageName":"firebase_storage",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=10"
+    },
+    {
+        "packageName":"flutter_lints",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=11"
+    },
+    {
+        "packageName":"Flame",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=12"
+    },
+    {
+        "packageName":"Firebase Remote Config",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=13"
+    },
+    {
+        "packageName":"go_router",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=14"
+    },
+    {
+        "packageName":"Firebase UI for Auth",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=15"
+    },
+    {
+        "packageName":"flutter_rating_bar",
+        "url":"https://www.youtube.com/watch?v=yjsN2Goe_po&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=16"
+    }
+]
